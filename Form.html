@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="css/master.css" rel="stylesheet" type="text/css" />
+    <title>The (Unoffical) ROB Fanpage</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            The (Unofficial) ROB Fanpage
+            <br>
+        Form Submission
+            <div class="buttons">
+                <button onclick="window.location.href='index.html'">Main</button>
+                <button onclick="window.location.href='Updates.html'">Updates</button>
+                <button onclick="window.location.href='About.html'">About</button>
+                <button onclick="window.location.href='Gallery.html'">Gallery</button>
+                <button onclick="window.location.href='Form.html'">Form</button>
+                <button onclick="window.location.href='Comments.html'">Comments</button>
+                <button onclick="window.location.href='Secret.html'">Secret</button>
+            </div> <!--buttons-->
+        </div> <!--banner-->
+        <div id="content">
+            Do you want to leave a good word for all of the ROBITES out there? Or simply suggest and edit to this web page? Submit your comments, ideas, or other in the form below!
+            <br>
+            Thank You!
+            <form id="myForm" action="/formsubs.php" method="post">
+                Name: <input type="text" name="name" required><br>
+                Comment: <input type="text" name="comment" required><br>
+                <input type="submit">
+            </form>
+        </div> <!--content-->
+      </div> <!--container-->
+</body>
+</html>
